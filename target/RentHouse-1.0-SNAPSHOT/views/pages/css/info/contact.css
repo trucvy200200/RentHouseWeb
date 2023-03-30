@@ -1,0 +1,33 @@
+main .col-xl-5 .img-cus{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20%;
+    transition: all 1.5 ease;
+    animation: load-right 1s ease-in-out forwards;
+}
+main .col-xl-5 .loading-left{
+    transition: all 1s ease;
+    animation: load-left 1s ease-in-out forwards;
+}
+@keyframes load-right {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes load-left {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,103 @@
+#js-right-sec3{
+    opacity: 0;
+}
+#js-left-sec3{
+    opacity: 0;
+}
+#js-right-sec4{
+    opacity: 0;
+}
+#js-left-sec4{
+    opacity: 0;
+}
+#js-right-sec5{
+    opacity: 0;
+}
+#js-left-sec5{
+    opacity: 0;
+}
+#js-down-sec5{
+    opacity: 0;
+}
+#js-right-sec6{
+    opacity: 0;
+}
+#js-left-sec6{
+    opacity: 0;
+}
+#js-right-sec7{
+    opacity: 0;
+}
+#js-left-sec7{
+    opacity: 0;
+}
+#js-down-sec7{
+    opacity: 0;
+}
+
+@keyframes load-right {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes load-left {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes load-down {
+    from{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.loading-right {
+  animation: load-right 1.5s ease-in-out forwards;
+  transition: all 1.5s ease;
+}
+.loading-left{
+    transition: all 1.5s ease;
+    animation: load-left 1.5s ease-in-out forwards;
+}
+.loading-down{
+    transition: all 1.5s ease;
+    animation: load-down 1.5s ease-in-out forwards;
+}
+.load-bar{
+    padding-top: 2px;
+    background-color: antiquewhite;
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: 1.5s bar-right 0s ease-in-out infinite;
+}
+@keyframes bar-right {
+    from{
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    current{
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 0.2;
+    }
+}

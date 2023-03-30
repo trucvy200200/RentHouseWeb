@@ -1,0 +1,326 @@
+header {
+  height: 90px;
+  top: 0;
+  right: 0;
+  position: sticky;
+  background-color: var(--body-bg);
+  z-index: 999;
+}
+header .logo {
+  width: 100px;
+  height: 100%;
+  transition: 1s ease;
+}
+header .btn-reg {
+  text-align: right;
+}
+header .build {
+  height: 30px;
+  display: inline-block;
+  transition: 1s ease;
+  color: var(--text-secondary);
+}
+header .col-3 a {
+  padding-top: calc(50% - 15px);
+  display: inline-block;
+  height: 30px;
+  transition: 0.1s cubic-bezier();
+}
+
+header .btn-custom {
+  width: 35%;
+  height: 40px;
+}
+header .btn-custom {
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1.2px solid var(--text-secondary);
+  transition: 1s ease-out;
+}
+header .l-custom {
+  transition: 1s ease-out;
+}
+header .l-custom:hover {
+  background-color: rgb(192, 172, 172);
+}
+header a:hover {
+  color: var(--text-secondary);
+  font-size: 17px;
+}
+/* End Header */
+/* Section-1 */
+.sec-1 {
+  height: auto;
+  padding: 25px 0;
+}
+.sec-1 .fs-custom {
+  font-size: 78px;
+  color: var(--text-secondary);
+  margin-left: 10px;
+  display: inline-block;
+  right: 0;
+  top: 0;
+}
+.sec-1 .btn-custom::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  content: "\f061";
+  padding-left: 20px;
+  font-size: 20px;
+}
+.sec-1 .desc {
+  padding-right: 100px;
+}
+.sec-1 .btn-custom {
+  width: 60%;
+  border-radius: 50px;
+  height: 50px;
+  background-color: var(--btn-cta);
+  border: 0.3px solid var(--text-secondary);
+}
+
+/* End section-1 */
+/* Section-2 */
+.sec-2 {
+  padding: 20px 0;
+}
+.sec-2 .img-custom {
+  height: 700px;
+  width: 100%;
+}
+.sec-2 .border-custom {
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.sec-2 .row-custom {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 50px;
+  right: 70px;
+  z-index: 2;
+  color: var(--text-secondary);
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+  padding: 20px 10px;
+  border-radius: 20px;
+  /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  z-index: 5;
+}
+.sec-2 .row-blur {
+  width: 100%;
+  height: 100%;
+  top: 12px;
+  right: 25px;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  padding: 20px 10px;
+  border-radius: 20px;
+  z-index: -1;
+  filter: blur(10px);
+  -webkit-filter: blur(4px);
+}
+.sec-3 .img-w:nth-child(n) {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+}
+.sec-3 .img-w:nth-child(2) {
+  left: -18px;
+  top: 0;
+  border: 2px solid var(--text-secondary);
+}
+.sec-3 .img-w:nth-child(3) {
+  left: calc(18px * 4);
+  top: -50px;
+  border: 2px solid var(--text-secondary);
+}
+.sec-3 .img-w:nth-child(4) {
+  left: calc(18px * 3);
+  top: -50px;
+  border: 2px solid var(--text-secondary);
+}
+.sec-3 .num,
+.sec-3 .title {
+  color: var(--body-bg);
+}
+.sec-3 .p-cust {
+  padding-left: 40px;
+}
+.sec-3 .card {
+  padding: 20px 20px;
+  padding-bottom: 0;
+  border-radius: 35px;
+  margin-left: 20px;
+  width: calc(50% - 20px);
+}
+.sec-3 .icon {
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: calc(50% - 25px);
+  color: var(--text-secondary);
+}
+.sec-3 .last-col {
+  height: 55%;
+  border-radius: 50%;
+  background-color: var(--btn-cta);
+  width: 20%;
+  margin-bottom: 20px;
+  bottom: 0;
+  right: 5%;
+}
+/* Section-4 */
+.sec-4 .title {
+  font-size: 60px;
+  color: var(--text-secondary);
+}
+
+/* Section-5 */
+.sec-5 {
+  height: 800px;
+}
+.sec-5 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.sec-5 .img-1-1 {
+  height: calc(70% - 5px);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.sec-5 .img-1-2 {
+  height: calc(30% - 5px);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.sec-5 .img-2-1 {
+  height: calc(60% - 5px);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.sec-5 .img-2-2 {
+  height: calc(40% - 5px);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.sec-5 .img-3-1 {
+  height: calc(40% - 5px);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.sec-5 .img-3-2 {
+  height: calc(60% - 5px);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.sec-5 .w-cus {
+  width: calc(100% / 3 - 15px);
+  margin-right: 7.5px;
+}
+.sec-5 .pos-cust {
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.sec-5 .left-cust {
+  padding-left: 30px;
+}
+/* Section 6 */
+.sec-6 {
+  height: 600px;
+}
+.sec-6 .img-cus {
+  border-radius: 30px;
+  overflow: hidden;
+  width: calc(50% - 160px);
+  padding: 0;
+  margin-left: 80px;
+}
+.sec-6 .w-cus {
+  width: calc(50% - 100px);
+  padding: 0;
+  margin-left: 80px;
+  padding-right: 30px;
+  line-height: 30px;
+}
+.sec-6 .btn-cus {
+  width: 40%;
+  margin-top: 40px;
+  border-radius: 30px;
+  background-color: var(--btn-cta);
+  border: 2px solid var(--text-secondary);
+}
+.sec-6 .icon-next::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  content: "\f061";
+  padding-left: 20px;
+  font-size: 20px;
+}
+.sec-6 .icon-next{
+  margin-top: calc(10% - 10px);
+}
+/* Section 7 */
+
+.sec-7 .title{
+  font-size: 74px;
+}
+.sec-7 .desc{
+  width: 40%;
+  font-size: 19px;
+  margin-top: 15px;
+}
+.sec-7 .bg{
+  background-color: var(--btn-cta);
+}
+.sec-7 .p-cust{
+  padding-left: 30px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.sec-7 .card{
+  border-radius: 20px;
+  width: 350px;
+  height: 360px;
+}
+.sec-7 .border-cus{
+  border: none;
+  border-bottom: 2px solid var(--text-priority);
+}
+.sec-7 .pos-cust{
+  right: calc(-350px / 4);
+  bottom: calc(-360px / 8);
+}
+.sec-7 .btn-cus{
+  background-color: var(--btn-cta);
+  border-radius: 30px;
+  border: 2px solid var(--text-secondary);
+  transition: all 1s ease;
+  width: 50%;
+}
+.sec-7 .btn-cus:hover{
+  background-color: var(--body-bg);
+  border: 2px solid var(--btn-cta);
+}
+
+/* Footer */
+footer .left-cus{
+  width: calc(100% / 8 - 50px);
+  margin-right: 3%;
+}
+footer .logo-cus{
+  margin-left: 10%;
+  margin-right: 5%;
+}
+footer .icon-cus i{
+  font-size: 30px;
+  margin-top: calc(100%/6 - 30px);
+  margin-right: 5%;
+}
+/* Effect Apear When Come */

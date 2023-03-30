@@ -1,0 +1,25 @@
+:root{
+    --body-bg: #1A1A1A;
+    --text-secondary: #FCFBFC;
+    --text-priority: #cdc6c6;
+    --btn-cta: #FF5C2C;
+}
+body{
+    background-color: var(--body-bg);
+    color: var(--text-priority);
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: var(--text-priority);
+}
+.icon-next::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  content: "\f061";
+  padding-left: 20px;
+  font-size: 20px;
+}
+img{
+    object-fit: cover;
+}

@@ -1,0 +1,13 @@
+main .inner-wrap{
+    height: 420px;
+}
+main .a-cus{
+    color: #7b7878;
+    background-color: transparent;
+}
+main .border-0{
+    background: transparent;
+}
+main .btn-log-in{
+    width: 40%;
+}

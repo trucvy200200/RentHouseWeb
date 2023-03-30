@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title> Apartment</title>
+    <title>Rent Apartment</title>
     <link rel="stylesheet" href="./views/assets/bootstrap-5/css/bootstrap.css" />
     <link rel="stylesheet" href="./views/assets/fontawesome6/css/fontawesome.css" />
     <link rel="stylesheet" href="./views/assets/fontawesome6/css/brands.css" />
@@ -14,7 +14,7 @@
       href="./views/assets/fontawesome6/webfonts/fa-brands-400.ttf"
     />
     
-    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./views/assets/css/base.css" />
     <link rel="stylesheet" href="./views/assets/css/style.css" />
     <link rel="stylesheet" href="./views/assets/css/animation.css" />
     <link rel="stylesheet" href="./views/assets/css/responsive.css" />
@@ -184,6 +184,7 @@
         </div>
       </section>
       <section class="sec-5 pt-5" id="sec5-js">
+       
         <div class="container h-100">
           <div class="row h-100">
             <div class="col-xl-4 col-lg-6 col-12 h-100 w-cus" id="js-right-sec5">
@@ -199,73 +200,10 @@
                   </div>
                 </div>
               </div>
-              <div class="img-1-2 position-relative mt-3">
-                <img src="./views/assets/images/sec-5/col-1-2.jpg" alt="" class="img-fluid rounded">
-                <div class="position-absolute pos-cust w-100">
-                  <p class="title text-white fs-2 left-cust">Miami Beach</p>
-                  <div class="row">
-                    <div class="col-10 color">
-                      <p class="text-white left-cust">Center of Hokia</p>
-                    </div>
-                    <div class="col-2"><p class="text-white">2023</p></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-12 h-100 w-cus" id="js-down-sec5">
-              <div class="img-2-1 position-relative">
-                <img src="./views/assets/images/sec-5/col-2-1.jpg" alt="" class="img-fluid rounded">
-                <div class="position-absolute pos-cust w-100">
-                  <p class="title text-white fs-2 left-cust">Miami Beach</p>
-                  <div class="row">
-                    <div class="col-10 color">
-                      <p class="text-white left-cust">Center of Hokia</p>
-                    </div>
-                    <div class="col-2"><p class="text-white">2023</p></div>
-                  </div>
-                </div>
-              </div>
-              <div class="img-2-2 position-relative mt-3">
-                <img src="./views/assets/images/sec-5/col-2-2.jpg" alt="" class="img-fluid rounded">
-                <div class="position-absolute pos-cust w-100">
-                  <p class="title text-white fs-2 left-cust">Miami Beach</p>
-                  <div class="row">
-                    <div class="col-10 color">
-                      <p class="text-white left-cust">Center of Hokia</p>
-                    </div>
-                    <div class="col-2"><p class="text-white">2023</p></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 h-100 w-cus" id="js-left-sec5">
-              <div class="img-3-1 position-relative">
-                <img src="./views/assets/images/sec-5/col-3-1.jpg" alt="" class="img-fluid rounded">
-                <div class="position-absolute pos-cust w-100">
-                  <p class="title text-white fs-2 left-cust">Miami Beach</p>
-                  <div class="row">
-                    <div class="col-10 color">
-                      <p class="text-white left-cust">Center of Hokia</p>
-                    </div>
-                    <div class="col-2"><p class="text-white">2023</p></div>
-                  </div>
-                </div>
-              </div>
-              <div class="img-3-2 position-relative mt-3">
-                <img src="./views/assets/images/sec-5/col-3-2.jpg" alt="" class="img-fluid rounded">
-                <div class="position-absolute pos-cust w-100">
-                  <p class="title text-white fs-2 left-cust">Miami Beach</p>
-                  <div class="row">
-                    <div class="col-10 color">
-                      <p class="text-white left-cust">Center of Hokia</p>
-                    </div>
-                    <div class="col-2"><p class="text-white">2023</p></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </div>                       
           </div>
         </div>
+       	
       </section>
       <section class="sec-6 pt-5 mt-3" id="sec6-js">
         <div class="container h-100">

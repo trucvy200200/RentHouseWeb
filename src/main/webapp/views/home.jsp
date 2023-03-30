@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rented Apartment</title>
+    <title> Apartment</title>
     <link rel="stylesheet" href="./views/assets/bootstrap-5/css/bootstrap.css" />
     <link rel="stylesheet" href="./views/assets/fontawesome6/css/fontawesome.css" />
     <link rel="stylesheet" href="./views/assets/fontawesome6/css/brands.css" />
@@ -14,7 +14,7 @@
       href="./views/assets/fontawesome6/webfonts/fa-brands-400.ttf"
     />
     
-    <link rel="stylesheet" href="./views/assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./views/assets/css/style.css" />
     <link rel="stylesheet" href="./views/assets/css/animation.css" />
     <link rel="stylesheet" href="./views/assets/css/responsive.css" />

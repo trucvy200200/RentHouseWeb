@@ -15,6 +15,17 @@ public class UserModel {
     private String pwd;
     private String phone;
 
+    public UserModel() {
+    }
+
+    public UserModel(Integer id, String name, String email, String pwd, String phone) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.pwd = pwd;
+        this.phone = phone;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -28,11 +28,12 @@ CREATE TABLE `house` (
   `title` varchar(100) NOT NULL,
   `number` varchar(45) DEFAULT NULL,
   `street` varchar(45) DEFAULT NULL,
-  `province` varchar(45) DEFAULT NULL,
+  `district` varchar(45) DEFAULT NULL,
   `city` varchar(45) DEFAULT NULL,
   `cost` float NOT NULL,
   `description` varchar(500) DEFAULT NULL,
   `area` float NOT NULL,
+  `image` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`idhouse`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -83,4 +84,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-30  9:26:48
+-- Dump completed on 2023-03-30  9:41:29

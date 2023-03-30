@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<%@ include file="/common/taglib.jsp"%><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -68,7 +69,7 @@
     <main>
       <div class="container">
         <div class="inner-wrap p-5 mt-5 card text-dark mx-auto">
-          <form>
+            <form action="<c:url value='/userLogin'/>" method="POST" id="log">
             <p class="fw-bold fs-2 text-center">Log In</p>
 
             <div class="mb-3">
@@ -78,6 +79,7 @@
               <input
                 type="email"
                 class="form-control"
+                name="login-email"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
@@ -89,6 +91,7 @@
               <input
                 type="password"
                 class="form-control"
+                name="login-password"
                 id="exampleInputPassword1"
               />
             </div>

@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import com.scrumteam.dao.impl.UserDAO;
 import com.scrumteam.model.UserModel;
 
-@WebServlet(name = "LoginServlet", value = "/userLogin")
+@WebServlet(urlPatterns={"/userLogin"})
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -31,6 +31,7 @@ public class LoginServlet extends HttpServlet {
                     request.getSession().setAttribute("auth",user);
                     response.sendRedirect("index.jsp");
                 } else {
+                    response.sendRedirect("Login.jsp");
                     out.println("user login failed");
                 }
             }catch (Exception e){
@@ -38,8 +39,7 @@ public class LoginServlet extends HttpServlet {
             }
 
 
-            out.println(email+password);
-
-        }
     }
+    }    
 }
+    

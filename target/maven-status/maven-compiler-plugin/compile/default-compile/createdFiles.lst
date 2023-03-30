@@ -1,1 +1,16 @@
+com\scrumteam\dao\GenericDAO.class
+com\scrumteam\dao\impl\UserDAO.class
+com\scrumteam\model\UserModel.class
+com\scrumteam\utils\MessageUtil.class
+com\scrumteam\mapper\HouseMapper.class
+com\scrumteam\mapper\UserMapper.class
+com\scrumteam\dao\iUserDAO.class
 com\scrumteam\controller\web\HomeController.class
+com\scrumteam\model\HouseModel.class
+com\scrumteam\mapper\RowMapper.class
+com\scrumteam\dao\impl\AbstractDAO.class
+com\scrumteam\controller\web\LoginServlet.class
+com\scrumteam\dao\impl\HouseDAO.class
+com\scrumteam\service\impl\UserService.class
+com\scrumteam\controller\web\RegisterController.class
+com\scrumteam\service\iUserService.class

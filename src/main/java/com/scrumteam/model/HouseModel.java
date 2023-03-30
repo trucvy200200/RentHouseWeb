@@ -4,12 +4,31 @@ public class HouseModel {
     private  int houseid;
     private int iduser;
     private String title;
-    private int number;
+    private String number;
+    private String street;
+    private String district;
     private String city;
     private float cost;
     private String description;
     private String area;
     private String image;
+
+    public HouseModel(int houseid, int iduser, String title, String number, String street, String district, String city, float cost, String description, String area, String image) {
+        this.houseid = houseid;
+        this.iduser = iduser;
+        this.title = title;
+        this.number = number;
+        this.street = street;
+        this.district = district;
+        this.city = city;
+        this.cost = cost;
+        this.description = description;
+        this.area = area;
+        this.image = image;
+    }
+
+    public HouseModel() {
+    }
 
     public int getHouseid() {
         return houseid;
@@ -35,12 +54,28 @@ public class HouseModel {
         this.title = title;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getDistrict() {
+        return district;
+    }
+
+    public void setDistrict(String district) {
+        this.district = district;
     }
 
     public String getCity() {
@@ -82,16 +117,7 @@ public class HouseModel {
     public void setImage(String image) {
         this.image = image;
     }
+    
 
-    public HouseModel(int houseid, int iduser, String title, int number, String city, float cost, String description, String area, String image) {
-        this.houseid = houseid;
-        this.iduser = iduser;
-        this.title = title;
-        this.number = number;
-        this.city = city;
-        this.cost = cost;
-        this.description = description;
-        this.area = area;
-        this.image = image;
-    }
+   
 }

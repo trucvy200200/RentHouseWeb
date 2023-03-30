@@ -184,26 +184,27 @@
         </div>
       </section>
       <section class="sec-5 pt-5" id="sec5-js">
-       
+      
+        <c:forEach var="item" items="${list}">
         <div class="container h-100">
           <div class="row h-100">
             <div class="col-xl-4 col-lg-6 col-12 h-100 w-cus" id="js-right-sec5">
               <div class="img-1-1 position-relative">
-                <img src="./views/assets/images/sec-5/col-1-1.jpg" alt="" class="img-fluid rounded">
+                <img src="./views/assets/images/${item.image}" alt="" class="img-fluid rounded">
                 <div class="position-absolute pos-cust w-100">
-                  <p class="title text-white fs-2 left-cust">Miami Beach</p>
+                  <p class="title text-white fs-2 left-cust">${item.title}</p>
                   <div class="row">
                     <div class="col-10 color">
-                      <p class="text-white left-cust">Center of Hokia</p>
+                      <p class="text-white left-cust">${item.description}</p>
                     </div>
-                    <div class="col-2"><p class="text-white">2023</p></div>
+                    <div class="col-2"><p class="text-white">${item.cost}</p></div>
                   </div>
                 </div>
               </div>
             </div>                       
           </div>
         </div>
-       	
+        </c:forEach>
       </section>
       <section class="sec-6 pt-5 mt-3" id="sec6-js">
         <div class="container h-100">

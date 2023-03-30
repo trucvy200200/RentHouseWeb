@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
             try {
                 UserDAO udao = new UserDAO();
                 UserModel user = udao.findUserByPass(email,password); // check the account by using API
-
+                  HttpSession session = request.getSession();
                 if (user != null) {
                     request.getSession().setAttribute("auth",user);
                     response.sendRedirect("index.jsp");

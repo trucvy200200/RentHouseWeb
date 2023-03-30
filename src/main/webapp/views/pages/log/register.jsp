@@ -1,32 +1,29 @@
 <%@ include file="/common/taglib.jsp"%>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Log In</title>
-        <link rel="stylesheet" href="../../assets/bootstrap-5/css/bootstrap.css" />
-        <link
-            rel="stylesheet"
-            href="../../assets/fontawesome6/css/fontawesome.css"
-            />
-        <link rel="stylesheet" href="../../assets/fontawesome6/css/brands.css" />
-        <link rel="stylesheet" href="../../assets/fontawesome6/css/solid.css" />
-        <link
-            rel="stylesheet"
-            href="../../assets/fontawesome6/webfonts/fa-brands-400.ttf"
-            />
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="<c:url value="../../assets/bootstrap-5/css/bootstrap.css"/>" />
+    <link
+      rel="stylesheet"
+      href="<c:url value="../../assets/fontawesome6/css/fontawesome.css"/>"/>
+    <link rel="stylesheet" href="<c:url value="../../assets/fontawesome6/css/brands.css"/>" />
+    <link rel="stylesheet" href="<c:url value="../../assets/fontawesome6/css/solid.css" />"/>
+    <link
+      rel="stylesheet"
+      href="<c:url value="../../assets/fontawesome6/webfonts/fa-brands-400.ttf"/>"/>
 
-        <link rel="stylesheet" href="../../assets/css/base.css" />
-        <link rel="stylesheet" href="../../assets/css/style.css" />
-        <link rel="stylesheet" href="../../assets/css/animation.css" />
-        <link rel="stylesheet" href="../../assets/css/responsive.css" />
-        <link rel="stylesheet" href="../css/log/style.css">
 
-        <!--Message!-->
-
-    </head>
+    <link rel="stylesheet" href="<c:url value="../../assets/css/base.css" />"/>
+    <link rel="stylesheet" href="<c:url value="../../assets/css/style.css" />"/>
+    <link rel="stylesheet" href="<c:url value="../../assets/css/animation.css" />"/>
+    <link rel="stylesheet" href="<c:url value="../../assets/css/responsive.css" />"/>
+    <link rel="stylesheet" href="<c:url value="../css/log/style.css" />"/>
+    <link rel="stylesheet" href="<c:url value="../css/log/log-in.css" />">
+  </head>
     <body>
         <header id="header">
             <div class="container h-100">
@@ -36,7 +33,7 @@
                             <div class="col-3">
                                 <img
                                     class="img-fluid img-thumbnail logo"
-                                    src="../../assets/images/logo.jpg"
+                                    src="<c:url value="../../assets/images/logo.jpg"/>"
                                     alt=""
                                     />
                             </div>
@@ -48,7 +45,7 @@
                     <div class="col-xl-4 h-100 col-lg-6 d-md-none d-lg-block">
                         <div class="row h-100">
                             <div class="col-3 text-center fw-normal l-custom">
-                                <a href="../../home.jsp"><p>Home</p></a>
+                                <a href="<c:url value="../../home.jsp"/>"> <p>Home</p> </a>
                             </div>
                             <div class="col-3 text-center fw-normal l-custom">
                                 <a href="../info/contact.html"><p>Contact</p></a>
@@ -135,7 +132,7 @@
                 <div class="row w-100">
                     <div class="col-xl-2 mr-5 logo-cus">
                         <div class="img">
-                            <img src="./views/assets/images/logo.jpg" alt="" class="img-fluid rounded mb-3" style="width: 100px; margin-left: 30%;">
+                            <img src="<c:url value="../../assets/images/logo.jpg"/>" alt="" class="img-fluid rounded mb-3" style="width: 100px; margin-left: 30%;">
                         </div>
                         <p>An international real eatate company that provides yours property solutions with best quality and affordable prices.</p>
                     </div>
@@ -172,6 +169,6 @@
                 </div>
             </div>
         </footer>
-        <script src="./views/assets/bootstrap-5/js/bootstrap.bundle.js"></script>
+              <script src="<c:url value="./assets/bootstrap-5/js/bootstrap.bundle.js"/>"></script>
     </body>
 </html>
